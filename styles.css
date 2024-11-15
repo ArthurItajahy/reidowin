@@ -275,7 +275,8 @@ p.soft{
     }
 
     .login-container form {
-        width: 90%;
+        width: 100%;
+        min-width: 50px;
         padding: 5%;
         margin-top: 62%;
     }
@@ -303,7 +304,7 @@ p.soft{
     .button-container {
         flex-direction:row; /* Stack the buttons on mobile */
         align-items: center;
-        gap: 40px;
+        gap: 50px;
     }
 
     .login-container button.second {
@@ -353,7 +354,7 @@ p.soft{
     }
 
     .login-container button.second {
-        width: 34%;
+        width: 44%;
         padding: 3px;
         background-color: #000000;
         color: white;
