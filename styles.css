@@ -48,6 +48,7 @@ body {
 .login-container {
     flex: 1;
     display: flex;
+    font-family: "Chakra Petch", sans-serif;
     justify-content: right;
     margin-right: 200px;
     align-items: center;
@@ -62,7 +63,7 @@ body {
 }
 
 .login-container form {
-    background-color: rgba(12, 12, 12, 0.932); /* Slightly transparent background */
+    background-color: rgba(12, 12, 12, 0.753); /* Slightly transparent background */
     
     padding: 2%;
     border-radius: 10px;
