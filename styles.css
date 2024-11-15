@@ -340,7 +340,7 @@ p.soft{
         margin-top: 0px;
     }
     .bottom-bar p {
-        font-size: 0.8rem; /* Slightly bigger font on mobile */
+        font-size: 0.5rem; /* Slightly bigger font on mobile */
         font-weight: lighter;
         margin-left: 9%;
         margin-right: 9%;
