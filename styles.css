@@ -14,7 +14,7 @@ body {
     background-position: center;
     display: flex;
     flex-direction: column;
-    height: 135vh;
+    height: 125vh;
 }
 
 /* Navbar */
@@ -48,7 +48,8 @@ body {
 .login-container {
     flex: 1;
     display: flex;
-    justify-content: center;
+    justify-content: right;
+    margin-right: 200px;
     align-items: center;
     padding: 20px;
     margin-top: 30px; /* Adjusted for fixed navbar */
@@ -67,10 +68,9 @@ body {
     border-radius: 10px;
     color: #ddd;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.459);
-    width: 35%;
+    width: 30%;
     min-width: 420px; /* Prevents form from being too small */
     align-items: normal;
-
     /* Create the gradient border */
     border-bottom: 5px solid;
     border-color: rgba(9, 221, 2, 0.89);
@@ -182,7 +182,7 @@ body {
 .button-container {
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 20px;
     margin-top: 20px;
 }
 
@@ -266,6 +266,8 @@ p.soft{
     }
 
     .login-container {
+        justify-content: center;
+        margin-right: 0px;
         flex-direction: column;
         margin-top: 70px; /* Less space for smaller screens */
        
@@ -277,8 +279,10 @@ p.soft{
         margin-top: 62%;
     }
     .login-container h2 {
+        margin-left: 4%;
+        margin-right: 4%;
        
-        font-size: 1.2rem;
+        font-size: 1.5rem;
       
         
     }
@@ -290,7 +294,8 @@ p.soft{
     
 
     .login-container button.principal {
-        width: 100%;
+        width: 70%;
+        height: 60px;
         font-size: 15px;
     }
 
