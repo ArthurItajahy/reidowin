@@ -9,7 +9,7 @@
 /* Body and layout */
 body {
     font-family: Arial, sans-serif;
-    background-image: url('pictures/Desktop.jpg');
+    background-image: url('pictures/Desktop.png');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -257,7 +257,7 @@ p.soft{
         display: none; /* Hide navbar on screens smaller than 768px */
     }
     body{
-        background-image: url('pictures/Mobile.jpg');
+        background-image: url('pictures/Mobile.png');
 
         
     }
