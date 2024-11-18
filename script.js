@@ -1,18 +1,12 @@
-function validateForm() {
-    const username = document.getElementById('username').value;
-    const password = document.getElementById('password').value;
-    const errorMessage = document.getElementById('error-message');
+const navbar = document.querySelector('.navbar');
 
-    if (username === "" || password === "") {
-        errorMessage.textContent = "Both fields are required!";
-        return false;
-    } else if (username.length < 5 || password.length < 5) {
-        errorMessage.textContent = "Username and password must be at least 5 characters long.";
-        return false;
+// Listen for the scroll event
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 50) {
+        // If the page is scrolled down by more than 50px, add the 'scrolled' class
+        navbar.classList.add('scrolled');
+    } else {
+        // If the page is at the top, remove the 'scrolled' class
+        navbar.classList.remove('scrolled');
     }
-    
-    // If form is valid, remove any error messages
-    errorMessage.textContent = "";
-    alert("Login successful!");
-    return true;
-}
+});

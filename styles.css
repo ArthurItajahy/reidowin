@@ -15,11 +15,12 @@ body {
     display: flex;
     flex-direction: column;
     height: 135vh;
+    padding-top: 50px; /* Adjust this value if the navbar height changes */
 }
 
 /* Navbar */
 .navbar {
-    background-color: rgba(7, 7, 7, 0.74); /* semi-transparent black */
+    background-color: rgba(7, 7, 7, 0.24); /* semi-transparent black */
     color: #fff;
     padding: 10px 30px;
     display: flex;
@@ -29,7 +30,13 @@ body {
     top: 0;
     width: 100%;
     z-index: 10;
+    transition: background-color 0.3s ease, padding 0.3s ease; /* Smooth transition */
 }
+.navbar.scrolled {
+    background-color: rgba(7, 7, 7, 1); /* solid black */
+    padding: 5px 30px; /* Reduce padding when scrolled */
+}
+
 .navbar p {
     background-image: linear-gradient(to right, #16cf05, #02740b); /* Red gradient */
     -webkit-background-clip: text; /* Clips the background gradient to the text */
