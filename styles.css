@@ -14,14 +14,14 @@ body {
     background-position: center;
     display: flex;
     flex-direction: column;
-    height: 125vh;
+    height: 130vh;
 }
 
 /* Navbar */
 .navbar {
-    background-color: rgba(7, 7, 7, 0.856); /* semi-transparent black */
+    background-color: rgba(7, 7, 7, 0.74); /* semi-transparent black */
     color: #fff;
-    padding: 30px 30px;
+    padding: 10px 30px;
     display: flex;
     justify-content: center; /* Center logo */
     align-items: center;
